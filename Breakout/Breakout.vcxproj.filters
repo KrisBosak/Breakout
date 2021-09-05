@@ -32,4 +32,15 @@
       <Filter>Source Files</Filter>
     </Xml>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\andromeda.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\milyWay.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\tringulum.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include "SDL.h"
+#include "SDL_image.h"
 
 class GameSetup {
 public:
@@ -21,9 +22,9 @@ public:
 		return isRunning;
 	}
 private:
-	bool isRunning;
-	SDL_Window* window;
-	SDL_Renderer* renderer;
+	bool isRunning = true;
+	SDL_Window* window = nullptr;
+	SDL_Renderer* renderer = nullptr;
 };
 
 
