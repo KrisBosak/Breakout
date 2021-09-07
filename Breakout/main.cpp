@@ -20,12 +20,13 @@ int main(int argc, char* argv[]) {
 		isFullscreen = true;
 	}*/
 
-	gameSetup->init("Breakout", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, false);
+	gameSetup->init("Breakout", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WINDOW_WIDTH, WINDOW_HEIGHT, false);
 
 	while (gameSetup->running()) {
 		gameSetup->handleEvents();
+		//gameSetup->update();
 		gameSetup->render();
-		gameSetup->update();
+		SDL_Delay(1000 / 60);
 	}
 
 	gameSetup->clean();

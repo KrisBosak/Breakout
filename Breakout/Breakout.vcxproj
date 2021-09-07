@@ -166,7 +166,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="assets\andromeda.jpg" />
+    <Image Include="assets\ball.png" />
     <Image Include="assets\milyWay.jpg" />
+    <Image Include="assets\paddle.png" />
     <Image Include="assets\tringulum.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
