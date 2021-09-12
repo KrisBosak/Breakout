@@ -15,38 +15,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameSetup.cpp">
+    <ClCompile Include="src\GameSetup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FieldManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextureManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameSetup.h">
+    <ClInclude Include="src\GameSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tinyxml2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FieldManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextureManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="Level1.xml">
+    <Xml Include="src\xml\Level1.xml">
       <Filter>Source Files</Filter>
     </Xml>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="assets\andromeda.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="assets\milyWay.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="assets\tringulum.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
     <Image Include="assets\ball.png">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="assets\paddle.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="assets\Backgrounds\andromeda.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Backgrounds\milyWay.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Backgrounds\tringulum.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\Bricks\Hard.dds" />
+    <Image Include="assets\Bricks\Impenetrable.dds" />
+    <Image Include="assets\Bricks\Medium.dds" />
+    <Image Include="assets\Bricks\Soft.dds" />
   </ItemGroup>
 </Project>
