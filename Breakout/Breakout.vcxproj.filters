@@ -60,12 +60,6 @@
     <Image Include="assets\Backgrounds\andromeda.jpg">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="assets\Backgrounds\milyWay.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
-    <Image Include="assets\Backgrounds\tringulum.jpg">
-      <Filter>Resource Files</Filter>
-    </Image>
     <Image Include="assets\Bricks\Hard.dds" />
     <Image Include="assets\Bricks\Impenetrable.dds" />
     <Image Include="assets\Bricks\Medium.dds" />
